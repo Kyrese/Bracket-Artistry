@@ -21,7 +21,7 @@ header{
     background-color: #621708;
     color: #F3B3A6;
     position:fixed;
-    z-index: 0;
+    z-index: 2;
 }
 .typography{
     margin: 0;
@@ -76,4 +76,10 @@ h2{
 /****Content******/
 #content{
     position: relative;
+}
+.left{
+    float: left;
+}
+.right{
+
 }
