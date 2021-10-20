@@ -16,7 +16,7 @@ body{
 }
 /*****Header******/
 header{
-    height: 15%;
+    height: 15vh;
     width: 100%;
     background-color: #220901;
     color: #F28C83;
@@ -24,21 +24,24 @@ header{
     z-index: 3;
 }
 #typography{
+    position: relative;
+        top: 20px;
     margin: 0;
     font-size: 2.5rem;
 }
 nav{
     margin-top: 10px;
+    position: absolute;
+        top: 30px;
+        right: 20px;
+    font-size: 1rem;
 }
 nav a{
     padding-top: 20px;
-    border-right-color: #F28C83;
-    border-right-style: solid;
     text-decoration: none;
     color: inherit;
     padding: 10px;
     display: inline;
-    font-size: 1.5rem;
 }
 nav a:hover{
     background-color: #F28C83;
@@ -54,10 +57,10 @@ nav a:hover{
     position: relative;
         top:0;
     width: 100%;
-    height: 85%;
+    height: 85vh;
     z-index: 2;
 }
-h1{
+#banner h1{
     margin: auto;
     text-align: center;
     position: relative;
@@ -79,12 +82,6 @@ h1{
     padding: 50px;
     font-size: 1.5rem;
 }
-.left{
-    float: left;
-}
-.right{
-    float: right;
-}
 #content table{
     margin-left: auto;
     margin-right: auto;
@@ -96,6 +93,29 @@ h1{
      background-color: #BC3908;
      color: #F28C83;
 }
+#content article:nth-child(odd){
+    text-align: left;
+    float: left;
+    width: 50%;
+  }
+#content article:nth-child(even){
+    text-align:right;
+    float: right;
+    width: 51%;
+  }
+#content article:nth-child(5){
+    width: 100%;
+}
+#content article{
+    padding-top: 20vh;
+    min-height: 60vh;
+    height: fit-content;
+    width: 50vw;
+}
+#content article p{
+    margin-right:0;
+}
+/***Up Button*****/
 #up{
     height: 50px;
     width: 50px;
