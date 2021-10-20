@@ -7,8 +7,8 @@ html{
 body{
     margin: 0;
     padding: 0;
-    background-color: #F28C83;
-    color:#BC3908;
+    background-color: #F3E9DC;
+    color:#5E3023;
     font-family: monospace;
     height: 100%;
     width: 100%;
@@ -18,8 +18,8 @@ body{
 header{
     height: 15vh;
     width: 100%;
-    background-color: #220901;
-    color: #F28C83;
+    background-color: #5E3023;
+    color: #F3E9DC;
     position: relative;
     z-index: 3;
 }
@@ -44,12 +44,12 @@ nav a{
     display: inline;
 }
 nav a:hover{
-    background-color: #F28C83;
-    color: #220901
+    background-color: #F3E9DC;
+    color: #220901;
 }
 /*******Banner****/
 #banner{
-    background-image: url("../img/pexels-tima-miroshnichenko-5198264.jpg");
+    background-image: url("../img/pexels-tony-schnagl-5588479.jpg");
     background-size:cover;
     background-position: right center;
     
@@ -72,7 +72,7 @@ nav a:hover{
 .filter{
     height: 100%;
     width: 100%;
-    background-color: #bc3808c5;
+    background-color: #c08552a1;
     position: absolute;
         top:0;
 }
@@ -114,18 +114,20 @@ nav a:hover{
     margin: auto;
 }
 #content th{
-    background-color: #621708;
+    background-color: #5E3023;
+    color: #F3E9DC;
+    text-align: center;
 }
 #content tr:hover{
-     background-color: #BC3908;
-     color: #F28C83;
+     background-color: #C08552;
+     color: #F3E9DC
 }
 /***Up Button*****/
 #up{
     height: 50px;
     width: 50px;
     border-radius: 50px;
-    background-color: #220901;
+    background-color: #5E3023;
     font-size:45px;
     text-align: center;
     position:fixed;
@@ -137,5 +139,5 @@ nav a:hover{
     padding:auto;
     text-decoration: none;
     
-    color:#F28C83;
+    color:#F3E9DC
 }
