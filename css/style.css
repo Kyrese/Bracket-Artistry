@@ -18,42 +18,43 @@ body{
 header{
     height: 15%;
     width: 100%;
-    background-color: transparent;
-    color: #220901;
+    background-color: #220901;
+    color: #F28C83;
+    position: relative;
+    z-index: 3;
 }
-.typography{
+#typography{
     margin: 0;
-    position: absolute;
-        top: 20px;
-        left: 20px;
     font-size: 2.5rem;
-    z-index: 1;
 }
 nav{
-    margin: 0;
-    position: absolute;
-        top: 20px;
-        right: 20px;
-    z-index: 1;
+    margin-top: 10px;
 }
 nav a{
+    padding-top: 20px;
+    border-right-color: #F28C83;
+    border-right-style: solid;
     text-decoration: none;
     color: inherit;
     padding: 10px;
     display: inline;
     font-size: 1.5rem;
 }
+nav a:hover{
+    background-color: #F28C83;
+    color: #220901
+}
 /*******Banner****/
 #banner{
-    background-image: url("../img/working-at-desk.jpg");
+    background-image: url("../img/pexels-tima-miroshnichenko-5198264.jpg");
     background-size:cover;
-    background-position: left center;
+    background-position: right center;
     
     color: #220901;
     position: relative;
         top:0;
     width: 100%;
-    height: 500px;
+    height: 85%;
     z-index: 2;
 }
 h1{
@@ -94,4 +95,22 @@ h1{
 #content tr:hover{
      background-color: #BC3908;
      color: #F28C83;
+}
+#up{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #220901;
+    font-size:45px;
+    text-align: center;
+    position:fixed;
+        right: 20px;
+        bottom: 20px;
+    z-index: 3;
+}
+#up a{
+    padding:auto;
+    text-decoration: none;
+    
+    color:#F28C83;
 }
