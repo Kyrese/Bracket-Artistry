@@ -3,6 +3,7 @@ html{
     width: 100%;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth; /*added smooth scrolling between links, can remove if not necessary*/
 }
 body{
     margin: 0;
@@ -39,11 +40,18 @@ nav a{
     padding: 10px;
     display: inline;
     font-size: 1.5rem;
+    margin-left: -7px; /*eliminated space on hover*/
 }
+
+nav a:nth-child(1){/*moving the first a tag 10px to the right
+    margin-left: 10px;
+}
+
 nav a:hover{
     background-color: #F28C83;
     color: #220901
 }
+
 /*******Banner****/
 #banner{
     background-image: url("../img/pexels-tima-miroshnichenko-5198264.jpg");
