@@ -1,3 +1,11 @@
+:root{
+    --color1: #5E3023;
+    --color2: #F3E9DC;
+    --color3: #220901;
+    --color4: #c08552a1;
+    --color5: #C08552;
+}
+
 html{
     height: 100%;
     width: 100%;
@@ -7,8 +15,8 @@ html{
 body{
     margin: 0;
     padding: 0;
-    background-color: #F3E9DC;
-    color:#5E3023;
+    background-color: var(--color2);
+    color: var(--color1);
     font-family: monospace;
     height: 100%;
     width: 100%;
@@ -18,8 +26,8 @@ body{
 header{
     height: 15vh;
     width: 100%;
-    background-color: #5E3023;
-    color: #F3E9DC;
+    background-color: var(--color1);
+    color: var(--color2);
     position: fixed;
     z-index: 1;
 }
@@ -47,8 +55,8 @@ nav a{
     display: inline;
 }
 nav a:hover{
-    background-color: #F3E9DC;
-    color: #220901;
+    background-color: var(--color2);
+    color: var(--color3);
 }
 /*******Banner****/
 #banner{
@@ -56,7 +64,7 @@ nav a:hover{
     background-size:cover;
     background-position: top center;
     font-weight: bold;
-    color: #220901;
+    color: var(--color3);
     position: relative;
         top:0;
     width: 100%;
@@ -69,13 +77,13 @@ nav a:hover{
     position: relative;
         top: 50%;
     font-size: 3rem;
-    color: #220901;
+    color: var(--color3);
     z-index: 1;
 }
 .filter{
     height: 100%;
     width: 100%;
-    background-color: #c08552a1;
+    background-color: var(--color4);
     position: absolute;
         top:0;
 }
@@ -111,17 +119,17 @@ nav a:hover{
     margin-right:0;
 }
 #content h1{
-    color:#220901
+    color:var(--color3)
 }
 #content table{
     margin: auto;
 }
 #content th{
-    background-color: #5E3023;
-    color: #F3E9DC;
+    background-color: var(--color1);
+    color: var(--color2);
     text-align: center;
 }
 #content tr:hover{
      background-color: #C08552;
-     color: #F3E9DC
+     color: var(--color2)
 }
