@@ -131,6 +131,26 @@ nav a:hover{
     color:var(--color3);;
     text-align: center;
 }
+.centeredParagraph{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+.cardContainer{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3em;
+}
+.teamCard{
+    text-align: center;
+    flex: 1;
+}
+.teamCard img{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
 /****Footer*****/
 footer{
     margin-top: 20px;
