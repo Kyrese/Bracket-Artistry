@@ -99,13 +99,14 @@ nav a:hover{
     width: 100%;
     text-align: center;
 }
-.letUs a{
+.letUs a, button:hover, input[type="submit"]{
     text-decoration: none;
     color: var(--color2);
     padding: 10px;
     background-color: var(--color1);
+    border: none;
 }
-.letUs a:hover{
+.letUs a:hover, button:hover, input[type="submit"]:hover{
     background-color: var(--color3);
 }
 #content article{
@@ -148,9 +149,10 @@ nav a:hover{
     flex: 1;
 }
 .teamCard img{
-    width: 100%;
-    aspect-ratio: 1/1;
+    width: 100px;
+    aspect-ratio: 100px;
 }
+
 /****Footer*****/
 footer{
     margin-top: 20px;

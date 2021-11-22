@@ -14,15 +14,17 @@
         <header>
             <span id = "typography"> &#60;Artistry&#62; </span>
             <nav>
+                <a href="index.html">Home</a>
                 <a href="about.html">About Us</a>
-                <a href="contact-us.html">Contact Us</a>
+                <a href="contact-us.html">Build Website</a>
             </nav>
         </header>
         <section id = "banner">
             <span id = "typography"> &#60;Artistry&#62; </span>
             <nav>
+                <a href="index.html">Home</a>
                 <a href="about.html">About Us</a>
-                <a href="contact-us.html">Contact Us</a>
+                <a href="contact-us.html">Build Website</a>
             </nav>
             <p>Contact Us</p>
             <div class = "filter"></div>
@@ -35,19 +37,21 @@
                 <h2>Email</h2>
                 <input type="text" placeholder="Email"/><br/>
                 <h2>Phone Number</h2>
-                <input type="text" placeholder="000-0000"/><br/>
+                <input type="tel" placeholder="000-0000"/><br/>
                 <h2>What is the purpose of this website?</h2><br/>
-                <select id="purpose">
-                    <option value="business">Business</option>
-                    <option value="personal">Personal</option>
-                    <option value="Community">Community</option>
-                </select>
-                <input type="date"/>
+                <input type="text" list="purposeData" id = "purpose">
+                <datalist id="purposeData">
+                    <option value="Business">
+                    <option value="Personal">
+                    <option value="Community">
+                </datalist>
+                <h2>What time what would you like to meet with our developers?</h2>
+                <input type="datetime-local"/>
                 <h2>Describe your site(functionality, aesthetics, etc)</h2>
-                <textarea name="" id="information" cols="30" rows="10">
+                <textarea name="" id="information" cols="40" rows="10">
 
                 </textarea><br/>
-                <input type ="submit" value="Boop">
+                <input type ="submit" value="Submit">
             </form>
         </section>
         <footer>
